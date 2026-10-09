@@ -8,8 +8,6 @@ class balling(Turtle):
         self.penup()
         self.new_x=10
         self.new_y=10
-        # self.speed(8)
-        self.movespeed=0.03
     
     def move(self):
         x=self.xcor()+self.new_x
@@ -25,8 +23,3 @@ class balling(Turtle):
         
     def bounce(self):
         self.new_y *=-1
-        # self.movespeed *=0.9
-    
-    def resetposion(self):
-        self.goto(0,0)
-        self.bounce()

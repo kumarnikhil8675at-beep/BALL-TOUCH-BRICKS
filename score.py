@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-class scoring(Turtle):
+class scoreing(Turtle):
     def __init__(self,position):
         super().__init__()
         self.penup()

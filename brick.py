@@ -13,5 +13,4 @@ class bricks(Turtle):
     
     def left(self):
         self.backward(50)
-       
         
